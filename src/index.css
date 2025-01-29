@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body, html{
+  overflow-x: hidden;
+}
+:root{
+  --lime-green : #dadccc;
+  --dark-green : #002816;
+}
+.playfair-display-Font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.lora-Font {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
