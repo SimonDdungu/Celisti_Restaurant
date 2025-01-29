@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-10 py-10 md:py-25 px-5 md:px-20" >
 
                 <div>
-                    <h1 className="playfair-display-Font text-4xl mb-5 md:mb-10">From Our Chef's Imagination to Your Plate, <br />Experience the Extraordinary</h1>
+                    <h1 className="playfair-display-Font text-4xl mb-5 md:mb-7">From Our Chef's Imagination to Your Plate, <br />Experience the Extraordinary</h1>
                     <p className="mb-10 md:mb-10 Lora-Font">Every dish we serve is a masterpiece, meticulously crafted to delight your senses and elevate your dining experience. With the finest ingredients and innovative techniques, we bring you a journey that transcends the ordinary. Join us and indulge in a moment of true culinary artistry.</p>
 
                     <div className="flex items-center gap-3 md:gap-5">
@@ -28,7 +28,7 @@ const Hero = () => {
                 </div>
             
                 
-                    <div className="w-100 md:w-500">
+                    <div className="max-w-100 md:w-500 md:max-w-500">
                         <img  className="w-full" src={HeroImage} alt="Chips Meal" />
                     </div>
                
