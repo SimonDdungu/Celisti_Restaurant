@@ -4,9 +4,10 @@ body, html{
   overflow-x: hidden;
 }
 :root{
-  --lime-green : #dadccc;
+  --lime-green : #548776;
   --dark-green : #002816;
 }
+
 .playfair-display-Font {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -17,6 +18,13 @@ body, html{
 
 .lora-Font {
   font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-Font {
+  font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
