@@ -3,7 +3,7 @@ import Chef from "../../images/icons/chef.png";
 const WhyUsCard = (props) => {
 
     return(
-        <div className="max-w-80 shadow-md py-10 px-5 bg-[#F6F5F2] rounded-2xl pointer-events-none">
+        <div className="max-w-80 shadow-md py-10 px-5 bg-white rounded-2xl pointer-events-none">
 
             <div className="rounded-full w-30 mx-auto mb-5 border-5 border-(--lime-green) p-5 ">
                 <img className="w-full" src={props.image} alt={props.image_alt} />

@@ -10,12 +10,12 @@ import NavigationBar from "./NavigationBar";
 const Hero = () => {
 
     return (
-        <div className="md:min-h-screen bg-[#dadccc] overflow-hidden p-0" >
+        <div className="md:h-screen md:min-h-screen bg-[#dadccc] overflow-hidden p-0" >
 
         <NavigationBar />
 
         <section style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="h-full">
-            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-10 py-10 md:py-25 px-5 md:px-20" >
+            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-10 pt-32 pb-10 md:py-49 px-5 md:px-20" >
 
                 <div>
                     <h1 className="playfair-display-Font text-4xl mb-5 md:mb-7">From Our Chef's Imagination to Your Plate, <br />Experience the Extraordinary</h1>

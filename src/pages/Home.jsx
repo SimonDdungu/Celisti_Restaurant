@@ -1,3 +1,4 @@
+import FeaturedMenu from "../components/Home_components/FeaturedMenu";
 import Hero from "../components/Home_components/Hero";
 import Home_WhyUs from "../components/Home_components/Home_WhyUs";
 import NavigationBar from "../components/Home_components/NavigationBar";
@@ -6,6 +7,7 @@ const Home = () => {
         <>
             <Hero />
             <Home_WhyUs />
+            <FeaturedMenu />
         </>
     );
 };
