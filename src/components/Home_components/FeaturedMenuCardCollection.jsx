@@ -14,7 +14,7 @@ const FeaturedMenuCardCollection = () => {
             <FeaturedMenuCard Title="Fattoush Salad Vegetarian Cuisine" image={Fattoush_Salad_Vegetarian_Cuisine} image_alt="Fattoush Salad Vegetarian Cuisine image" Price="50,000"/>
             <FeaturedMenuCard Title="Ramen Chinese Noodles" image={Ramen_Chinese_noodles} image_alt="Ramen Chinese noodles image" Price="30,000"/>
             <FeaturedMenuCard Title="Cheeseburger with French fries" image={Cheeseburger_Frenchfries} image_alt="Cheeseburger with French fries and a Drink image" Price="55,000"/>
-            <FeaturedMenuCard Title="Flavored Milkshakes" image={Flavored_Milkshakes} image_alt="Flavored Milkshakes image" Price="15,000"/>
+            <FeaturedMenuCard Title="Flavored Milkshake" image={Flavored_Milkshakes} image_alt="Flavored Milkshakes image" Price="15,000"/>
         </div>
     );
 };
