@@ -3,7 +3,7 @@ import FeaturedMenuCardCollection from "./FeaturedMenuCardCollection";
 
 const FeaturedMenu = () => {
     return (
-        <section className="bg-[#F8F8FF]">
+        <section>
             <div className="container mx-auto py-10 px-5 md:px-20 md:py-20">
                 <h3 className="text-center playfair-display-Font text-4xl mb-5 md:mb-10">Featured Menu</h3>
                 <h5 className="text-center lora-Font text-lg mb-10 md:mb-15">Here are some of our customer favorites, made fresh with the best ingredients.</h5>

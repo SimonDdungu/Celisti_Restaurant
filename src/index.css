@@ -1,11 +1,21 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 1530px;
+  --breakpoint-3xl: 120rem;
+}
+
 body, html{
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #F8F8FF;
 }
 :root{
   --lime-green : #548776;
   --dark-green : #002816;
+  --blue-green: #153B44;
 }
 
 .playfair-display-Font {
