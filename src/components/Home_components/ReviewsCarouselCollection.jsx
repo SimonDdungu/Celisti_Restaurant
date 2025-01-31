@@ -8,8 +8,8 @@ import 'swiper/css/navigation';
 import { Autoplay, Navigation } from 'swiper/modules';
 import ReviewsCarousel from './ReviewsCarousel';
 
-import Jessica_ketwaroo from '../../images/Customers/Jessica_Ketwaroo.png';
-import Keith_Daniel from '../../images/Customers/Obua Junior.jpeg';
+import Jessica_ketwaroo from '../../images/Customers/Jessica_ketwaroo.png';
+import Keith_Daniel from '../../images/Customers/Keith Daniel.jpeg';
 import Jessica_Margret from '../../images/Customers/Jessica Margret.jpg';
 import Simon_Chainbers from '../../images/Customers/Simon Chainbers.jpg';
 import Monique_Namusoke from '../../images/Customers/Monique Namusoke.jpg';
