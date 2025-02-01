@@ -8,7 +8,7 @@ const Hero = () => {
     return (
         <>
         <NavigationBar />
-        <div className="bg-[#dadccc] overflow-hidden p-0 md:box-border" >
+        <div className="overflow-hidden p-0 md:box-border" >
 
         <section style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="h-full">
             <div className="container mx-auto md:min-h-screen md:w-screen flex flex-col md:flex-row justify-between items-center gap-10 pt-32 pb-10 md:pt-39 px-5 md:px-20" >
