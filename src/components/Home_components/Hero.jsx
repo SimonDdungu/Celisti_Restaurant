@@ -1,22 +1,17 @@
-import Food_item1 from "../../images/Pictures/Food item 1.png";
-import Food_item2 from "../../images/Pictures/Food item 2.png";
-import Food_item3 from "../../images/Pictures/Food item 3.png";
-
-import HeroImage from "../../images/Pictures/crispychicken-meal.png";
+import Shish_kebab_Barbecue from '../../images/Menu/Shish kebab Barbecue Mediterranean cuisine.png'
 import Background from "../../images/Pictures/Background 2.jpg"
 
 import NavigationBar from "./NavigationBar";
 
 const Hero = () => {
 
-        console.log(window.innerWidth);
     return (
         <>
         <NavigationBar />
-        <div className="md:min-h-screen md:w-screen bg-[#dadccc] overflow-hidden p-0 md:box-border" >
+        <div className="bg-[#dadccc] overflow-hidden p-0 md:box-border" >
 
         <section style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="h-full">
-            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-10 pt-32 pb-10 md:py-39 px-5 md:px-20" >
+            <div className="container mx-auto md:min-h-screen md:w-screen flex flex-col md:flex-row justify-between items-center gap-10 pt-32 pb-10 md:pt-39 px-5 md:px-20" >
 
                 <div>
                     <h1 className="playfair-display-Font text-4xl mb-5 md:mb-7">From Our Chef's Imagination to Your Plate, <br />Experience the Extraordinary</h1>
@@ -30,7 +25,7 @@ const Hero = () => {
             
                 
                     <div className="max-w-100 md:w-500 md:max-w-500">
-                        <img  className="w-full" src={HeroImage} alt="Chips Meal" />
+                        <img  className="w-full" src={Shish_kebab_Barbecue} alt="Chips Meal" />
                     </div>
                
 

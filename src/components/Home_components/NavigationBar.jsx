@@ -1,4 +1,4 @@
-import Celisti_Logo from '../../images/logo/Celisti Restaurant Logo only.png';
+import Celesti_Logo from '../../images/logo/Celesti Restaurant Logo only.png';
 import Hamburger_Menu from '../../images/icons/burger-menu-green.svg';
 import Close_Hamburger_Menu from '../../images/icons/close-burger-menu-green.svg';
 import { useState } from 'react';
@@ -17,8 +17,8 @@ const NavigationBar = () => {
         <div className='flex justify-between items-center bg-white fixed top-0 right-0 left-0 px-5 py-2 md:px-20'>
         
         <div className="Nav_logo w-90 mr-auto flex items-center gap-2 playfair-display-Font">
-                <img className='w-15' src={Celisti_Logo} alt="Celisti Logo" />
-                <span className='block w-full'>Celisti Restaurant</span>
+                <img className='w-15' src={Celesti_Logo} alt="Celesti Logo" />
+                <span className='block w-full'>Celesti Restaurant</span>
             </div>
 
                        
