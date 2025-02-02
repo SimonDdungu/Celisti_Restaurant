@@ -1,15 +1,33 @@
 import Celesti_Logo from '../../images/logo/Celesti Restaurant Logo only.png';
 import Hamburger_Menu from '../../images/icons/burger-menu-green.svg';
 import Close_Hamburger_Menu from '../../images/icons/close-burger-menu-green.svg';
-import { useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
+
 
 const NavigationBar = () => {
 
     const [isMobileNavOpen, setisMobileNavOpen] = useState(false);
+    let MobileNav = useRef(null);
+    let MobileNavButton = useRef(null);
 
     const toggle_mobile_nav = () => {
         setisMobileNavOpen(!isMobileNavOpen);
     }
+
+    useEffect(() => {
+        const handleClickOutside = (e) => {
+            if(MobileNav.current && !MobileNav.current.contains(e.target) && MobileNavButton.current && !MobileNavButton.current.contains(e.target)){
+                setisMobileNavOpen(false);
+            }
+        }
+
+        document.addEventListener("click", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("click", handleClickOutside);
+        }
+        
+    }, [isMobileNavOpen]);
 
     return (
         <header className='max-w-screen   relative z-10 shadow-xs'>
@@ -42,11 +60,11 @@ const NavigationBar = () => {
                 </ul>
 
                 <div className='md:hidden'>
-                    <button onClick={toggle_mobile_nav}><img alt="Mobile Menu" className="w-10" src={!isMobileNavOpen ? `${Hamburger_Menu}` : `${Close_Hamburger_Menu}`} /></button>
+                    <button ref={MobileNavButton} onClick={toggle_mobile_nav}><img alt="Mobile Menu" className="w-10" src={!isMobileNavOpen ? `${Hamburger_Menu}` : `${Close_Hamburger_Menu}`} /></button>
                 </div>
                 
                 {/* Mobile Navigation */}
-                <ul className={`flex flex-col md:hidden absolute top-full left-0 right-0 z-10 px-10 pb-3 bg-white shadow-xs ${!isMobileNavOpen ? "h-0" : "h-90"} transition-all ease duration-300 overflow-hidden`}>
+                <ul className={`flex flex-col md:hidden absolute top-full left-0 right-0 z-10 px-10 pb-3 bg-white shadow-xs ${!isMobileNavOpen ? "h-0" : "h-90"} transition-all ease duration-300 overflow-hidden`} ref={MobileNav}>
                     <li className='py-5'>
                         <a href="#Home">Home</a>
                     </li>
