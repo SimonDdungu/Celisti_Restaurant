@@ -35,9 +35,12 @@ const NavigationBar = () => {
 
         <div className='flex justify-between items-center bg-white fixed z-100 top-0 right-0 left-0 px-5 py-2 md:px-20'>
         
-        <div className="w-90 mr-auto flex items-center gap-2 font-bold">
-                <img className='w-15' src={Celesti_Logo} alt="Celesti Logo" />
-                <span className='block w-full uppercase'>Celesti Restaurant</span>
+        
+            <div className="w-90 mr-auto  font-bold">
+                <Link to="/" className='flex items-center gap-2'>
+                    <img className='w-15' src={Celesti_Logo} alt="Celesti Logo" />
+                    <span className='block w-full uppercase'>Celesti Restaurant</span>
+                </Link>
             </div>
 
                        
