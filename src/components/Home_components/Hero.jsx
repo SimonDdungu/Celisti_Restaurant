@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="container mx-auto md:min-h-screen md:w-screen flex flex-col md:flex-row justify-between items-center gap-10 pt-32 pb-10 md:pt-39 px-5 md:px-20" >
 
                 <div>
-                    <h1 className="playfair-display-Font text-4xl mb-5 md:mb-7">From Our Chef's Imagination to Your Plate, <br />Experience the Extraordinary</h1>
+                    <h1 className="playfair-display-Font text-4xl mb-5 md:mb-7">From Our Chef's Imagination to Your Plate, <br />Elevate Your Dining Experience.</h1>
                     <p className="mb-10 md:mb-10 Lora-Font">Every dish we serve is a masterpiece, meticulously crafted to delight your senses and elevate your dining experience. With the finest ingredients and innovative techniques, we bring you a journey that transcends the ordinary. Join us and indulge in a moment of true culinary artistry.</p>
 
                     <div className="flex items-center gap-3 md:gap-5">
