@@ -7,8 +7,8 @@ import { useEffect, useState, useRef } from 'react';
 const NavigationBar = () => {
 
     const [isMobileNavOpen, setisMobileNavOpen] = useState(false);
-    let MobileNav = useRef(null);
-    let MobileNavButton = useRef(null);
+    const MobileNav = useRef(null);
+    const MobileNavButton = useRef(null);
 
     const toggle_mobile_nav = () => {
         setisMobileNavOpen(!isMobileNavOpen);
@@ -30,13 +30,12 @@ const NavigationBar = () => {
     }, [isMobileNavOpen]);
 
     return (
-        <header className='max-w-screen   relative z-10 shadow-xs'>
 
         <div className='flex justify-between items-center bg-white fixed top-0 right-0 left-0 px-5 py-2 md:px-20'>
         
-        <div className="Nav_logo w-90 mr-auto flex items-center gap-2 playfair-display-Font">
+        <div className="w-90 mr-auto flex items-center gap-2 font-bold">
                 <img className='w-15' src={Celesti_Logo} alt="Celesti Logo" />
-                <span className='block w-full'>Celesti Restaurant</span>
+                <span className='block w-full uppercase'>Celesti Restaurant</span>
             </div>
 
                        
@@ -64,7 +63,7 @@ const NavigationBar = () => {
                 </div>
                 
                 {/* Mobile Navigation */}
-                <ul className={`flex flex-col md:hidden absolute top-full left-0 right-0 z-10 px-10 pb-3 bg-white shadow-xs ${!isMobileNavOpen ? "h-0" : "h-90"} transition-all ease duration-300 overflow-hidden`} ref={MobileNav}>
+                <ul className={`w-full flex flex-col md:hidden absolute top-full left-0 right-0 z-10 px-10 pb-3 bg-white shadow-xs ${!isMobileNavOpen ? "h-0" : "h-90"} transition-all ease duration-300 overflow-hidden`} ref={MobileNav}>
                     <li className='py-5'>
                         <a href="#Home">Home</a>
                     </li>
@@ -83,11 +82,6 @@ const NavigationBar = () => {
                 </ul>
         </div>
             
-
-            
-            
-
-        </header>
     );
 };
 
