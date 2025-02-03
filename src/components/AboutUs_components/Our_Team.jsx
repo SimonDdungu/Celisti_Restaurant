@@ -3,9 +3,9 @@ import Chefs_Team from "../../images/Pictures/Chefs Team.jpg";
 const Our_Team = () => {
     return (
         <section>
-            <div className="container mx-auto px-5 py-20 md:py-30 flex flex-col-reverse md:flex-row gap-5">
-                <div className="max-w-100 md:w-600 md:max-w-600">
-                    <img className="w-full" src={Chefs_Team} alt="Our Chef Team" />
+            <div className="container mx-auto px-5 py-20 lg:py-30 flex flex-col-reverse lg:flex-row lg:items-center xl:items-start gap-5">
+                <div className="max-w-full lg:w-600 lg:max-w-600">
+                    <img className="w-full h-full object-cover" src={Chefs_Team} alt="Our Chef Team" />
                 </div>
 
                 <div>

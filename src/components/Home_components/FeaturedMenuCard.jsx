@@ -3,7 +3,7 @@ const FeaturedMenuCard = (props) => {
     return (
         <div className="max-w-80 shadow-md pt-5 pb-10 px-5 bg-[#F6F5F2] rounded-2xl cursor-pointer">
 
-            <div className="w-30 h-35 md:w-70  mx-auto mb-1 md:mb-5 ">
+            <div className="w-30 h-35 md:w-50 xl:w-70  mx-auto mb-1 md:mb-5 ">
                 <img className="w-full h-full object-contain" src={props.image} alt={props.image_alt} />
             </div>
 

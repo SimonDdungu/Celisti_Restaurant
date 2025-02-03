@@ -2,7 +2,7 @@ import Customer_100 from '../../images/Pictures/Customer 100.png';
 const AboutUs_Main = () => {
     return (
         <section>
-            <div className="container mx-auto py-10 px-5 md:px-20 md:py-20 flex flex-col md:flex-row gap-5 md:gap-10 items-center">
+            <div className="container mx-auto py-10 px-5 lg:px-20 lg:py-20 flex flex-col lg:flex-row gap-5 lg:gap-10 items-center">
                 <div>
 
                 <h3 className="text-center playfair-display-Font text-2xl md:text-4xl mb-5 md:mb-10">Welcome To Celesti Restaurant</h3>
@@ -21,8 +21,8 @@ const AboutUs_Main = () => {
 
                 </div>
 
-                <div className='max-w-100 md:w-500 md:max-w-500'>
-                    <img className="w-full" src={Customer_100} alt="Customers having a meal" />
+                <div className='max-w-full lg:w-500 lg:max-w-500'>
+                    <img className="w-full h-full object-cover" src={Customer_100} alt="Customers having a meal" />
                 </div>
                 
             </div>

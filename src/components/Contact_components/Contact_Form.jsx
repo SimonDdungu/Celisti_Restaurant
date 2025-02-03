@@ -2,7 +2,7 @@
 
 const ContactForm = () => {
     return (
-        <section className="px-5 lg:px-60 pb-10 md:pb-20">
+        <section className="px-5 xl:px-60 pb-10 md:pb-20">
 
             <form className="container mx-auto bg-white shadow-md rounded-2xl py-10 px-5 md:px-20 flex flex-col gap-5 lg:gap-2">
             <h3 className="text-center playfair-display-Font text-2xl md:text-4xl mb-5 md:mb-10">Send Us A Message</h3>

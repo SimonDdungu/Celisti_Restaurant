@@ -45,7 +45,7 @@ const NavigationBar = () => {
 
                        
             
-                <ul className='hidden lg:flex gap-10 text-lg font-bold'>
+                <ul className='hidden xl:flex gap-10 text-lg font-bold'>
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -64,26 +64,26 @@ const NavigationBar = () => {
                     </li>
                 </ul>
 
-                <div className='lg:hidden'>
+                <div className='xl:hidden'>
                     <button ref={MobileNavButton} onClick={toggle_mobile_nav}><img alt="Mobile Menu" className="w-10" src={!isMobileNavOpen ? `${Hamburger_Menu}` : `${Close_Hamburger_Menu}`} /></button>
                 </div>
                 
                 {/* Mobile Navigation */}
-                <ul className={`w-full flex flex-col lg:hidden absolute top-full left-0 right-0 z-10 px-10 pb-3 bg-white shadow-xs ${!isMobileNavOpen ? "h-0" : "h-90"} transition-all ease duration-300 overflow-hidden`} ref={MobileNav}>
-                    <li className='py-5'>
-                        <Link to="/" onClick={toggle_mobile_nav}>Home</Link>
+                <ul className={`w-full flex flex-col xl:hidden absolute top-full left-0 right-0 z-10 px-10 pb-3 bg-white shadow-xs ${!isMobileNavOpen ? "h-0" : "h-90"} transition-all ease duration-300 overflow-hidden`} ref={MobileNav}>
+                    <li>
+                        <Link to="/" onClick={toggle_mobile_nav} className='py-5 block'>Home</Link>
                     </li>
-                    <li className='py-5'>
-                        <Link to="/about-us" onClick={toggle_mobile_nav}>About Us</Link>
+                    <li>
+                        <Link to="/about-us" onClick={toggle_mobile_nav} className='py-5 block'>About Us</Link>
                     </li>
-                    <li className='py-5'>
-                        <Link to="/under-construction" onClick={toggle_mobile_nav}>Our Menu</Link>
+                    <li>
+                        <Link to="/under-construction" onClick={toggle_mobile_nav} className='py-5 block'>Our Menu</Link>
                     </li>
-                    <li className='py-5'>
-                        <Link to="/contact"  onClick={toggle_mobile_nav}>Contact</Link>
+                    <li>
+                        <Link to="/contact"  onClick={toggle_mobile_nav} className='py-5 block'>Contact</Link>
                     </li>
-                    <li className='py-5'>
-                        <Link to="/under-construction" className='text-(--dark-green) font-bold' onClick={toggle_mobile_nav}>Make a Reservation</Link>
+                    <li>
+                        <Link to="/under-construction" className='py-5 block text-(--dark-green) font-bold' onClick={toggle_mobile_nav}>Make a Reservation</Link>
                     </li>
                 </ul>
         </div>

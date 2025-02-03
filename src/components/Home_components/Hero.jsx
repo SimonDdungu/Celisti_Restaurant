@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="overflow-hidden p-0 md:box-border" >
 
         <section style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className="h-full">
-            <div className="container mx-auto md:min-h-screen md:w-screen flex flex-col md:flex-row justify-between items-center gap-10 pt-32 pb-10 md:pt-39 px-5 md:px-20" >
+            <div className="container mx-auto xl:min-h-screen md:w-screen flex flex-col lg:flex-row justify-between items-center gap-10 pt-32 pb-10 md:pt-39 px-5 lg:px-20" >
 
                 <div>
                     <h1 className="playfair-display-Font text-4xl mb-5 md:mb-7">From Our Chef's Imagination to Your Plate, <br />Elevate Your Dining Experience.</h1>
@@ -23,7 +23,7 @@ const Hero = () => {
                 </div>
             
                 
-                    <div className="max-w-100 md:w-500 md:max-w-500">
+                    <div className="max-w-100 lg:w-500 lg:max-w-500">
                         <img  className="w-full" src={Shish_kebab_Barbecue} alt="Chips Meal" />
                     </div>
                

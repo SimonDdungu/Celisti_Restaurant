@@ -5,9 +5,9 @@ const HomeReservations = () => {
     return (
         <section>
 
-        <div className="container mx-auto flex flex-col-reverse md:flex-row justify-between gap-5 py-20 px-5 md:px-20 ">
-            <div className='max-w-100 md:w-550 md:max-w-550 rounded-lg overflow-hidden shadow-2xl'>
-                <img className="w-full object-cover" src={waitress} alt="Our loved Waitress image" />
+        <div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between gap-5 py-20 px-5 xl:px-20 ">
+            <div className='max-w-full xl:w-550 xl:max-w-550 rounded-lg overflow-hidden shadow-2xl'>
+                <img className="w-full h-full object-cover" src={waitress} alt="Our loved Waitress image" />
             </div>
 
             <div>

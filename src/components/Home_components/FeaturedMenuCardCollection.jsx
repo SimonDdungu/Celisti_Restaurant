@@ -8,7 +8,7 @@ import Cheeseburger_Frenchfries from '../../images/Menu/Cheeseburger with French
 
 const FeaturedMenuCardCollection = () => {
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-10 mb-10 md:mb-20">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-10 mb-10 md:mb-20">
             <FeaturedMenuCard Title="Shish Kebab Barbecue" image={Shish_kebab_Barbecue} image_alt="Shish Kebab Barbecue image" Price="80,000"/>
             <FeaturedMenuCard Title="Chicken Nugget Fries" image={Chicken_nugget_French_fries} image_alt="Chicken nugget French fries image" Price="60,000"/>
             <FeaturedMenuCard Title="Fattoush Salad Cuisine" image={Fattoush_Salad_Vegetarian_Cuisine} image_alt="Fattoush Salad Vegetarian Cuisine image" Price="50,000"/>

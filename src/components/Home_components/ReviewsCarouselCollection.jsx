@@ -18,7 +18,7 @@ import Damon_Tweedy from '../../images/Customers/Damon Tweedy.jpg';
 
 const ReviewsCarouselCollection = () => {
     return (
-        <div className='md:w-250 h-90 mb-10 mx-auto'>
+        <div className='lg:w-250 h-90 mb-10 mx-auto'>
       <Swiper navigation={true} loop={true} autoplay={{ 
         delay: 5000 }} speed={1000} modules={[Navigation, Autoplay]} className='mySwiper'>
 

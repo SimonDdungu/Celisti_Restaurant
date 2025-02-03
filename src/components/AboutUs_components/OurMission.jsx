@@ -5,9 +5,9 @@ import diamond_2 from "../../images/icons/diamond 2.png";
 const OurMission = () => {
     return (
         <section className="bg-gray-200">
-            <div className="container mx-auto py-10 px-5 md:px-40 md:py-20 flex flex-col md:flex-row justify-center gap-20">
+            <div className="container mx-auto py-10 px-5 lg:px-40 lg:py-20 flex flex-col lg:flex-row justify-center items-center gap-20">
 
-                <div className="w-full md:w-100 rounded-lg shadow-lg px-7 pt-10 pb-15 bg-gray-100 pointer-events-none border-t-7 border-[#6d3b8d]">
+                <div className="w-full md:w-100 lg:h-113 rounded-lg shadow-lg px-7 pt-10 pb-15 bg-gray-100 pointer-events-none border-t-7 border-[#6d3b8d]">
 
                     <div className="w-20 mx-auto mb-4">
                         <img className="w-full mx-auto object-contain" src={mission} alt="Mission Icon" />
@@ -24,7 +24,7 @@ const OurMission = () => {
                 </div>
 
 
-                <div className="w-full md:w-100 rounded-lg shadow-lg px-3 md:px-7 pt-10 pb-10 bg-gray-100 pointer-events-none border-t-7 border-[#8ac9fe]">
+                <div className="w-full md:w-100 lg:h-113 rounded-lg shadow-lg px-3 lg:px-7 pt-10 pb-10 bg-gray-100 pointer-events-none border-t-7 border-[#8ac9fe]">
 
                     <div className="w-20 mx-auto mb-4">
                         <img className="w-full mx-auto object-contain" src={diamond_2} alt="Mission Icon" />
