@@ -14,7 +14,7 @@ import tiktok from '../../images/icons/tiktok.png';
 const Footer = () => {
     return (
         <section className='pt-10 md:pt-20' style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
-            <div className="container mx-auto flex flex-col md:flex-row justify-between gap-5 px-5  mb-10">
+            <div className="container mx-auto flex flex-col lg:flex-row justify-between gap-5 px-5 mb-10">
 
                 <div className='w-30 md:w-50'>
                     <img className="w-full object-contain"src={Celisti_Logo} alt="Celesti Restaurant Logo" />
@@ -34,7 +34,7 @@ const Footer = () => {
                         <Link to="/under-construction" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Our Menu</Link>
                     </li>
                     <li className='py-3'>
-                        <Link to="/under-construction" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Contact</Link>
+                        <Link to="/contact" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Contact</Link>
                     </li>
                     <li className='py-3'>
                         <Link to="/under-construction" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Reservation</Link>

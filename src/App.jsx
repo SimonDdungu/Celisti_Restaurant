@@ -7,6 +7,7 @@ import Footer from "./components/Global_combonents/Footer"
 import Underconstruction from "./components/Global_combonents/Underconstruction"
 import Error404 from "./components/Global_combonents/Error404"
 import ScrollToTop from "./components/Global_combonents/ScrollToTop"
+import Contact from "./pages/Contact"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
 
         <Route path="/under-construction" element={<Underconstruction />} />
         <Route path="*" element={<Error404 />} />

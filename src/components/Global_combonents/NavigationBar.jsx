@@ -45,7 +45,7 @@ const NavigationBar = () => {
 
                        
             
-                <ul className='hidden md:flex gap-10 text-lg font-bold'>
+                <ul className='hidden lg:flex gap-10 text-lg font-bold'>
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -57,19 +57,19 @@ const NavigationBar = () => {
                         <Link to="/under-construction">Our Menu</Link>
                     </li>
                     <li>
-                        <Link to="/under-construction">Contact</Link>
+                        <Link to="/contact">Contact</Link>
                     </li>
                     <li>
                         <Link to="/under-construction" className="rounded-full bg-[#153B44] px-5 py-3 text-white hover:bg-(--dark-green) transition-all ease-in-out font-normal">Reservation</Link>
                     </li>
                 </ul>
 
-                <div className='md:hidden'>
+                <div className='lg:hidden'>
                     <button ref={MobileNavButton} onClick={toggle_mobile_nav}><img alt="Mobile Menu" className="w-10" src={!isMobileNavOpen ? `${Hamburger_Menu}` : `${Close_Hamburger_Menu}`} /></button>
                 </div>
                 
                 {/* Mobile Navigation */}
-                <ul className={`w-full flex flex-col md:hidden absolute top-full left-0 right-0 z-10 px-10 pb-3 bg-white shadow-xs ${!isMobileNavOpen ? "h-0" : "h-90"} transition-all ease duration-300 overflow-hidden`} ref={MobileNav}>
+                <ul className={`w-full flex flex-col lg:hidden absolute top-full left-0 right-0 z-10 px-10 pb-3 bg-white shadow-xs ${!isMobileNavOpen ? "h-0" : "h-90"} transition-all ease duration-300 overflow-hidden`} ref={MobileNav}>
                     <li className='py-5'>
                         <Link to="/" onClick={toggle_mobile_nav}>Home</Link>
                     </li>
@@ -80,7 +80,7 @@ const NavigationBar = () => {
                         <Link to="/under-construction" onClick={toggle_mobile_nav}>Our Menu</Link>
                     </li>
                     <li className='py-5'>
-                        <Link to="/under-construction"  onClick={toggle_mobile_nav}>Contact</Link>
+                        <Link to="/contact"  onClick={toggle_mobile_nav}>Contact</Link>
                     </li>
                     <li className='py-5'>
                         <Link to="/under-construction" className='text-(--dark-green) font-bold' onClick={toggle_mobile_nav}>Make a Reservation</Link>
