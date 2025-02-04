@@ -54,7 +54,7 @@ const NavigationBar = () => {
                         <Link to="/about-us">About Us</Link>
                     </li>
                     <li>
-                        <Link to="/under-construction">Our Menu</Link>
+                        <Link to="/menu">Our Menu</Link>
                     </li>
                     <li>
                         <Link to="/contact">Contact</Link>
@@ -77,7 +77,7 @@ const NavigationBar = () => {
                         <Link to="/about-us" onClick={toggle_mobile_nav} className='py-5 block'>About Us</Link>
                     </li>
                     <li>
-                        <Link to="/under-construction" onClick={toggle_mobile_nav} className='py-5 block'>Our Menu</Link>
+                        <Link to="/menu" onClick={toggle_mobile_nav} className='py-5 block'>Our Menu</Link>
                     </li>
                     <li>
                         <Link to="/contact"  onClick={toggle_mobile_nav} className='py-5 block'>Contact</Link>

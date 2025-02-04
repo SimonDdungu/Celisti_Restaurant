@@ -20,7 +20,6 @@ const OurMission = () => {
                     <p>
                     Our mission is to create a space where every guest feels welcome and every meal is a moment to enjoy.
                     </p>
-
                 </div>
 
 

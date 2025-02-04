@@ -9,6 +9,7 @@ import Error404 from "./components/Global_combonents/Error404"
 import ScrollToTop from "./components/Global_combonents/ScrollToTop"
 import Contact from "./pages/Contact"
 import Reservations from "./pages/Reservations"
+import Menu from "./pages/Menu"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/reservation" element={<Reservations />} />
+        <Route path="/menu" element={<Menu />} />
 
         <Route path="/under-construction" element={<Underconstruction />} />
         <Route path="*" element={<Error404 />} />

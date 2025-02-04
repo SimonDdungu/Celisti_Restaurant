@@ -31,7 +31,7 @@ const Footer = () => {
                         <Link to="/about-us"  className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>About Us</Link>
                     </li>
                     <li className='py-3'>
-                        <Link to="/under-construction" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Our Menu</Link>
+                        <Link to="/menu" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Our Menu</Link>
                     </li>
                     <li className='py-3'>
                         <Link to="/contact" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Contact</Link>
@@ -59,7 +59,8 @@ const Footer = () => {
                 </div>
 
             </div>
-                <div>
+
+            <div>
                 <h5 className='font-bold text-2xl mb-2'>Social</h5>
 
                 <div className='flex items-center gap-5 py-3'>
@@ -76,6 +77,7 @@ const Footer = () => {
             <div className='text-center py-5 bg-blue-950'>
                 <p className='text-white'>© 2025 Celesti Restaurant. All Rights Reserved.</p>
             </div>
+            
         </section>
     );
 };
