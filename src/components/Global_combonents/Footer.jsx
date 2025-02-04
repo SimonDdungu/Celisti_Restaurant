@@ -37,7 +37,7 @@ const Footer = () => {
                         <Link to="/contact" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Contact</Link>
                     </li>
                     <li className='py-3'>
-                        <Link to="/under-construction" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Reservation</Link>
+                        <Link to="/reservation" className='hover:text-(--dark-green) hover:font-bold hover:underline transition-all ease-in-out'>Reservation</Link>
                     </li>
                 </ul>
             </div>

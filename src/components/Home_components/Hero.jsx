@@ -17,7 +17,7 @@ const Hero = () => {
                     <p className="mb-10 md:mb-10 Lora-Font">Every dish we serve is a masterpiece, meticulously crafted to delight your senses and elevate your dining experience. With the finest ingredients and innovative techniques, we bring you a journey that transcends the ordinary. Join us and indulge in a moment of true culinary artistry.</p>
 
                     <div className="flex items-center gap-3 md:gap-5">
-                        <Link to ="/under-construction" className="rounded-full bg-[#153B44] px-5 md:px-7 py-3 md:py-4 text-white hover:bg-(--dark-green) transition-all ease-in-out">Make a Reservation</Link>
+                        <Link to ="/reservation" className="rounded-full bg-[#153B44] px-5 md:px-7 py-3 md:py-4 text-white hover:bg-(--dark-green) transition-all ease-in-out">Make a Reservation</Link>
                         <Link to ="/under-construction" className="rounded-full bg-white border-3 border-(--lime-green) px-5 md:px-7 py-3 md:py-4 hover:bg-black hover:text-white hover:border-black transition-all ease-in-out">Our Menu</Link>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import location from '../../images/icons/location.png';
 
 const Contact_Main = () => {
     return (
-        <section className="mt-19 px-5 xl:px-70 pt-10 md:pt-20 pb-10">
+        <section className="mt-19 px-5 lg:px-10 xl:px-70 pt-10 md:pt-20 pb-10">
             <div className="container mx-auto mb-5">
             <h3 className="text-center playfair-display-Font text-2xl md:text-4xl mb-5 md:mb-10">Get In Touch With Us</h3>
             <p>Have a question or special request? We're here for you! Feel free to reach out through the form below, give us a call or visit us in person. We can't wait to connect with you!</p>
@@ -13,7 +13,7 @@ const Contact_Main = () => {
 
             <div>
 
-        <div>
+        <div className="container mx-auto ">
 
                 <div className='flex  items-center gap-2 py-3'>
                     <img src={mail} alt="Email Icon" className='w-5' />

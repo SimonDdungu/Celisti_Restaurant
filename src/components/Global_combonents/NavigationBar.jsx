@@ -60,7 +60,7 @@ const NavigationBar = () => {
                         <Link to="/contact">Contact</Link>
                     </li>
                     <li>
-                        <Link to="/under-construction" className="rounded-full bg-[#153B44] px-5 py-3 text-white hover:bg-(--dark-green) transition-all ease-in-out font-normal">Reservation</Link>
+                        <Link to="/reservation" className="rounded-full bg-[#153B44] px-5 py-3 text-white hover:bg-(--dark-green) transition-all ease-in-out font-normal">Reservation</Link>
                     </li>
                 </ul>
 
@@ -83,7 +83,7 @@ const NavigationBar = () => {
                         <Link to="/contact"  onClick={toggle_mobile_nav} className='py-5 block'>Contact</Link>
                     </li>
                     <li>
-                        <Link to="/under-construction" className='py-5 block text-(--dark-green) font-bold' onClick={toggle_mobile_nav}>Make a Reservation</Link>
+                        <Link to="/reservation" className='py-5 block text-(--dark-green) font-bold' onClick={toggle_mobile_nav}>Make a Reservation</Link>
                     </li>
                 </ul>
         </div>
