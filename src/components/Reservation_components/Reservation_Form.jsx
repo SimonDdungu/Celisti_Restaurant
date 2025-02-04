@@ -34,7 +34,7 @@ const ReservationForm = () => {
                         <input type="text" className="shadow rounded w-full py-1 md:py-2 px-3 outline-1 focus:outline-2 focus:outline-(--lime-green)" required/>
                     </div>
                     <div className='flex flex-col basis-full relative'>
-                        {error && <span style={{ color: "red" }} className='absolute -top-7 left-0'>{error}!</span>}
+                        {error && <span style={{ color: "red" }} className='absolute text-xs lg:text-sm -top-4 lg:-top-7 left-0'>{error}!</span>}
                         <label htmlFor="Last_Name" className="block w-max text-gray-700 text-sm font-bold mb-2">Phone Number</label>
                         <input type="tel" value={PhoneValidation} onChange={(e) => {setPhoneValidation(e.target.value); setError("")}} maxLength={16} onInput={(e) => {e.target.value = e.target.value.replace(/[^0-9+]/g, '')}} className="shadow rounded w-full py-1 md:py-2 px-3 outline-1 focus:outline-2 focus:outline-(--lime-green)" required/>
                     </div>
