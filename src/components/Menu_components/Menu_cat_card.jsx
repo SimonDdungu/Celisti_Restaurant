@@ -10,7 +10,7 @@ const MenuCatCard = (props) => {
             <div>
                 <h5 className='text-center font-bold'>{props.category}</h5>
                 <p className="text-sm mb-7">{props.description}</p>
-                <Link to ="/under-construction" className="block w-max mx-auto rounded-full bg-[#153B44] px-5 py-2 text-white hover:bg-(--dark-green) transition-all ease-in-out">Explore</Link>
+                <Link to ={props.link} className="block w-max mx-auto rounded-full bg-[#153B44] px-5 py-2 text-white hover:bg-(--dark-green) transition-all ease-in-out">Explore</Link>
             </div>
         </div>
     );
